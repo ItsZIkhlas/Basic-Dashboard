@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsaved-vars */
 "use client";
 
 import { LogOut, Moon, Settings, Sun, User } from "lucide-react";
@@ -17,8 +16,7 @@ import { useTheme } from "next-themes";
 import { SidebarTrigger, useSidebar } from "./ui/sidebar";
 
 const Navbar = () => {
-  const { theme, setTheme } = useTheme();
-  const { toggleSidebar } = useSidebar();
+  const {_theme, setTheme } = useTheme();
   return (
     <nav className="p-4 flex items-center justify-between sticky top-0 bg-background z-10">
       {/* LEFT */}

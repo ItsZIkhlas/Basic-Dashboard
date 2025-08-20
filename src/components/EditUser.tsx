@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsaved-vars */
 "use client";
 
 import {
@@ -125,7 +124,7 @@ const EditUser = () => {
               <FormField
                 control={form.control}
                 name="role"
-                render={({ field }) => (
+                render={() => (
                   <FormItem>
                     <FormLabel>Role</FormLabel>
                     <FormControl>
