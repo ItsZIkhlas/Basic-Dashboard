@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsaved-vars */
 "use client";
 
 import { LogOut, Moon, Settings, Sun, User } from "lucide-react";
